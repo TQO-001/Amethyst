@@ -27,31 +27,6 @@ Amethyst is a web-based Markdown editor inspired by Obsidian, built for develope
 
 ---
 
-## 📦 Installation
-
-### Using Next.js
-
-```bash
-git clone https://github.com/YourUsername/Amethyst.git
-cd Amethyst/amethyst
-npm install
-npm run dev
-````
-
-Visit `http://localhost:3000` to see the editor in action.
-
-### Using Vite React (Optional)
-
-```bash
-# Create Vite app
-npm create vite@latest amethyst -- --template react
-cd amethyst
-npm install
-npm run dev
-```
-
----
-
 ## 📖 Documentation
 
 The full documentation with usage examples, Markdown syntax guide, styling system, and developer notes can be found in the [docs](https://chatgpt.com/c/docs) folder:
