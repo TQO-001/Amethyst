@@ -14,14 +14,14 @@ export default function NavBar() {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 mt-2">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 mb-2">
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
           <Link href="/" className="shrink-0 flex items-center gap-2 overflow-hidden">
             <Image
-              src="/logo.png"
+              src="/images/logo.png"
               alt="Laughtale Logo"
               width={100}
               height={100}
